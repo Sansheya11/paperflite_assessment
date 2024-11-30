@@ -1,0 +1,18 @@
+[
+    {
+        "id": "allfiles",
+        "name": "All files"
+    },
+    {
+        "id": "Photo",
+        "name": "Photos"
+    },
+    {
+        "id": "video",
+        "name": "Videos"
+    },
+    {
+        "id": "Document",
+        "name": "Document"
+    }
+]

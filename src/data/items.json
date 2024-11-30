@@ -1,0 +1,72 @@
+[
+    {
+        "id": "collection1",
+        "title": "Collection 1",
+        "type": "video",
+        "total": 23,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection2",
+        "title": "Collection 2",
+        "type": "video",
+        "total": 1,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection3",
+        "title": "Collection 3",
+        "type": "Photo",
+        "total": 89,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection4",
+        "title": "Collection 4",
+        "type": "video",
+        "total": 12,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection5",
+        "title": "Collection 5",
+        "type": "Photo",
+        "total": 78,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection6",
+        "title": "Collection 6",
+        "type": "Document",
+        "total": 56,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection7",
+        "title": "Collection 7",
+        "type": "Photo",
+        "total": 11,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection8",
+        "title": "Collection 8",
+        "type": "Document",
+        "total": 6,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection9",
+        "title": "Collection 9",
+        "type": "video",
+        "total": 2,
+        "thumbnail": "https://picsum.photos/200"
+    },
+    {
+        "id": "collection10",
+        "title": "Collection 10",
+        "type": "Document",
+        "total": 4,
+        "thumbnail": "https://picsum.photos/200"
+    }
+]

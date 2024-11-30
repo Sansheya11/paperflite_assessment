@@ -1,0 +1,13 @@
+.tabContainer {
+    display: flex;
+    gap: 16px;
+}
+
+.items {
+    padding: 8px;
+    border: 1px solid red;
+}
+
+.activeItems {
+    background: greenyellow;
+}
