@@ -4,7 +4,7 @@ export const LeftNav = () => {
   return (
     <div className={styles.leftnavContainer}>
       <div className={styles.topIcons}>
-        <img src="Path 977.png" alt="Icon 1" className={styles.icon} />
+        <img src="/crossicon.png" alt="Icon 1" className={styles.icon} />
         <img src="Component 2.png" alt="Icon 2" className={styles.icon} />
         <img src="Component 9.png" alt="Icon 3" className={styles.icon} />
         <img src="Component 8.png" alt="Icon 4" className={styles.icon} />
