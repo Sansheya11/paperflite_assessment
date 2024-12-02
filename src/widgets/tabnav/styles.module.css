@@ -1,13 +1,56 @@
+/* Container for Tabs */
 .tabContainer {
     display: flex;
     gap: 16px;
-}
-
-.items {
+  }
+  
+  /* General Styling for Tab Buttons */
+  .items {
     padding: 8px;
-    border: 1px solid red;
-}
-
-.activeItems {
-    background: greenyellow;
-}
+    border: 1px solid #DBDBDB;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Active Tab Styling */
+  .activeItems {
+    background: #E51058;
+    color: white;
+  }
+  
+  /* Plus Button Specific Styling */
+  .plusButton {
+    border: 1px solid #DBDBDB;
+    border-radius: 50px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .plusButton:hover {
+    background-color: #f4f4f4;
+    transform: scale(1.1);
+  }
+  
+  .plusIcon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Padding for Tab Navigation */
+  .tabnve {
+    padding: 50px;
+  }
+  
+  
+  
+  
+  /* Tab item styles */

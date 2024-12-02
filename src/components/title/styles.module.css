@@ -1,4 +1,155 @@
 .titleContainer {
     display: flex;
     justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 50px;
 }
+.titlefont{
+    font-weight: 400;
+    font-size: 32px;
+   
+    padding-bottom: 10px;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.searchbox{
+    padding-right: 50px;
+}
+.searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adjust as needed */
+   
+  }
+  
+  /* Wrapper for Search Component */
+.searchWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-right: 50px;
+  }
+  
+  /* Search Box */
+  .searchbox {
+    display: flex;
+    flex: 1;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    /* flex: 1; */
+  }
+  
+  .searchIcon,
+  .endIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .searchIcon img,
+  .endIcon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  
+  /* Box Next to Search Box */
+  .iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .iconImage {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Bottom Section */
+  .bottomActions {
+    display: flex;
+    gap: 10px;
+    /* margin-top: 20px; */
+  }
+  
+  .actionBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .actionBox span {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .createBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0 10px;
+  }
+  
+  .createBox img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .createBox span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  @media (max-width: 768px) {
+    .titleContainer {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 20px;
+      padding-top: 20px;
+      gap: 20px;
+    }
+  
+    .searchWrapper {
+      padding-right: 20px;
+      margin-top: 10px; /* Add spacing below the title */
+    }
+    
+  }

@@ -2,10 +2,54 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding-left: 50px;
 }
 
 .card {
-    padding: 8px;
-    border: 1px solid red;
-    border-radius: 8px;
+    /* padding: 8px; */
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.imagecard{
+    border-radius: 20px;
+}
+.cardtitle{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.carddesc{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/* General button styling */
+.saveButton,
+.cancelButton {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px 10px; /* Adds padding inside the button */
+  margin-right: 5px; /* Space between buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Save Button specific styles */
+.saveButton {
+    background-color: white;
+    color: black;
+}
+
+/* Cancel Button specific styles */
+.cancelButton {
+    background-color: white;
+    color: black;
+}
+
+/* Hover effect for both buttons */
+.saveButton:hover,
+.cancelButton:hover {
+  background-color: #E51058;
+  color: white;
+}
+.changename{
+    padding-top: 5px;
 }
