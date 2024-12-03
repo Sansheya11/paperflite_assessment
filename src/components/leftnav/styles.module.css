@@ -1,40 +1,36 @@
-/* .leftnavContainer {
-    background-color: azure;
-    width: 70px;
-    padding: 8px;
-} */
+
 .leftnavContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80px; /* Adjust the width as needed */
+    width: 80px;
     background-color: #f0f0f0; 
     padding-top: 50px;
     padding-left: 10px;
-    padding-right: 10px;/* Optional background color */
+    padding-right: 10px;
   }
   
   .topIcons,
   .bottomIcons {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Gap between icons */
+    gap: 20px; 
   }
   
   .middleGap {
     height: 80px; 
     padding-top: 140px;
-    background-color: #f0f0f0;/* Space between top and bottom icons */
+    background-color: #f0f0f0;
   }
   
   .icon {
-    width: 20px; /* Adjust the size of the icons */
+    width: 20px;
     height: 20px;
   }
   .icon {
-    width: 20px; /* Adjust the size of the icons */
+    width: 20px; 
     height: 20px;
-    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+    transition: filter 0.3s ease;
   }
   
   .icon:hover {

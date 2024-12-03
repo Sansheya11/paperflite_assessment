@@ -43,15 +43,15 @@ export const Search = ({ onSearch }) => {
         <div className={styles.bottomActions}>
           <div className={styles.actionBox}>
             <img src="Text.png" alt="Text Icon" className={styles.iconImage} />
-            {/* <span>Text</span> */}
+          
           </div>
           <div className={styles.actionBox}>
             <img src="Lineicon.png" alt="Delete Icon" className={styles.iconImage} />
-            {/* <span>Delete</span> */}
+            
           </div>
           <div className={styles.actionBox}>
             <img src="Delete.png" alt="Other Icon" className={styles.iconImage} />
-            {/* <span>Other</span> */}
+           
           </div>
           <div className={styles.createBox}>
             <img src="Collection.png" alt="Plus Icon" className={styles.iconImage} />
