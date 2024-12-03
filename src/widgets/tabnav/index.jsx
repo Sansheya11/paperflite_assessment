@@ -36,15 +36,7 @@ export const TabNav = ({ dataSource = [], value, onChange = () => {} }) => {
           </button>
         );
       })}
-            {/* <div className={styles.sortWrapper}>
-        <div className={styles.sortTextWrapper}>
-          <span className={styles.sortText}>Sort By:</span>
-          <span className={styles.createDateText}>Create Date</span>
-        </div>
-        <div className={styles.sortBox}>
-          <img src="selecticon.png" alt="Sort Icon" className={styles.sortIcon} />
-        </div>
-      </div> */}
+           
   
 
     </div>
